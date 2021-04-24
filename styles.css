@@ -1,0 +1,45 @@
+/* Syling for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Nav bar styling (links + layout) */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #222;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Other styling */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#google-logo {
+    margin-top: 17.5vh;
+    margin-bottom: 1.5em;
+}
+
+#search-box {
+    font-size: 16px;
+    width: 35%;
+    padding: 10px 5px;
+    /* border-radius: 30px; */
+}
