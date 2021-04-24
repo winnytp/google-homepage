@@ -8,7 +8,7 @@ I'm following these directions from The Odin Project: https://www.theodinproject
 Will not move on until this is completed!
 
 ## Aim
-The aim is to build a replica Google homepage layout using HTML and CSS, *but* there's no functionality. So really, it's a simple project.
+The aim is to build a replica Google homepage layout using HTML and CSS, *but* there's no functionality. So really, it's an exercise in layout building.
 
 I'm starting with a blank canvas. Whatever you see is stuff I've manually typed and coded.
 
