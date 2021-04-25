@@ -9,8 +9,10 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex;
     align-items: center;
+    flex-flow: row wrap;
+    justify-content: flex-end; */
 }
 
 li {
@@ -21,6 +23,11 @@ li a {
     color: #222;
     text-decoration: none;
     margin: 0.5em;
+    vertical-align: middle;
+}
+
+a {
+    vertical-align: middle;
 }
 
 a:hover {
@@ -46,7 +53,7 @@ a:hover {
 
 #search-box {
     font-size: 16px;
-    width: 45%;
+    width: 600px;
     padding: 10px 5px;
     /* border-radius: 30px; */
 }
@@ -55,4 +62,20 @@ a:hover {
     text-align: center;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#google-search-btn {
+    margin: 5px;
+    padding: 5px;
+}
+
+#feeling-lucky-btn {
+    margin: 5px;
+    padding: 5px;
 }
