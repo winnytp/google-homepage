@@ -8,7 +8,6 @@ body {
 .navbar {
     list-style-type: none;
     margin: 15px 15px 0px 15px;
-    padding: 0;
     /* display: flex;
     align-items: center;
     flex-flow: row wrap;
@@ -16,7 +15,7 @@ body {
 }
 
 .nav-links {
-    padding-top: 3px;
+    padding-top: 8px;
 }
 
 li {
@@ -28,6 +27,7 @@ li a {
     text-decoration: none;
     margin: 0.5em;
     vertical-align: middle;
+    padding-right: 5px;
 }
 
 a {
@@ -41,6 +41,24 @@ a:hover {
 .material-icons {
     font-size: 24px!important;
     color: #777;
+    margin:5px 20px 0px 10px;
+}
+
+#images-link {
+    margin-right: 10px;
+}
+
+#sign-in-btn {
+    padding: 8px 24px;
+    font-size: 14px;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    border: none;
+}
+
+#sign-in-btn:hover {
+    background-color: #4185df;
 }
 
 /* Other styling */
@@ -76,10 +94,14 @@ a:hover {
 
 #google-search-btn {
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
 }
 
 #feeling-lucky-btn {
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
 }

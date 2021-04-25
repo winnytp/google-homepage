@@ -7,14 +7,15 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
-    <div id="navbar-div">
+    <div>
         <ul class="navbar">
             <li class="nav-links"><a href="">About</a></li>
             <li class="nav-links"><a href="">Store</a></li>
-            <li style="float: right;"><i class="material-icons">account_circle</i></li>
+            <li style="float: right;"><button id="sign-in-btn" type=button>Sign In</button></li>
+            <!-- <li style="float: right;"><i class="material-icons">account_circle</i></li> -->
             <li style="float: right;"><i class="material-icons">apps</i></li>
-            <li class="nav-links" style="float: right;"><a href="">Images</a></li>
-            <li class="nav-links" style="float: right;"><a href="">Gmail</a></li>
+            <li id="images-link" class="nav-links" style="float: right;"><a href="">Images</a></li>
+            <li id="gmail-link" class="nav-links" style="float: right;"><a href="">Gmail</a></li>
         </ul>
     </div>
     <br>
@@ -27,8 +28,8 @@
             <input class="center" type="text" placeholder="Search for anything..." id="search-box">
         </div>
         <div class="buttons">
-            <button id="google-search-btn" type="button">Google Search</button>
-            <button id="feeling-lucky-btn" type="button">I'm Feeling Lucky</button>
+            <button id="google-search-btn" type=button>Google Search</button>
+            <button id="feeling-lucky-btn" type=button>I'm Feeling Lucky</button>
         </div>
     </body>
 </html>
