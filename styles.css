@@ -4,6 +4,13 @@ body {
     font-size: 13px;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
 /* Nav bar styling (links + layout) */
 .navbar {
     list-style-type: none;
@@ -16,9 +23,24 @@ body {
 
 .nav-links {
     padding-top: 8px;
+    float: left;
+    color: #222;
+    text-decoration: none;
+    margin: 0.5em;
+    vertical-align: middle;
+    padding-right: 5px;
 }
 
-li {
+.link-pos {
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* li {
     float: left;
 }
 
@@ -28,7 +50,7 @@ li a {
     margin: 0.5em;
     vertical-align: middle;
     padding-right: 5px;
-}
+} */
 
 a {
     vertical-align: middle;
