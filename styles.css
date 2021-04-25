@@ -8,12 +8,30 @@ body {
     position: absolute;
     bottom: 0;
     background-color: #f7f7f7;
-    width: 100%;
+    width: 99vw; /* this is the cause of the scroll bar when set to 100% */
 }
 
 .footer-links {
     list-style-type: none;
-    display: float;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#push {
+    margin-left: auto;
+}
+
+#about-link {
+    margin-left: -30px;
+}
+
+#advertising-link {
+    margin-left: -30px;
+}
+
+#aus-link {
+    margin-left: 15px;
 }
 
 /* Nav bar styling (links + layout) */
@@ -38,7 +56,6 @@ body {
 
 .nav-links-bottom {
     padding: 8px;
-    float: left;
     color: #222;
     text-decoration: none;
     margin: 0.5em;
