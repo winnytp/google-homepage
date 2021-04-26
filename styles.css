@@ -8,8 +8,9 @@ html, head, body {
     display: block;
     position: absolute;
     opacity: 50%;
-    top: 8px;
-    left: 4px;
+    top: 10px;
+    left: 5px;
+    font-size: 20px!important;
 }
 
 .search {
@@ -139,7 +140,7 @@ a:hover {
 }
 
 #search-box {
-    width: 575px;
+    width: 550px;
     padding: 15px 5px;
     /* border-radius: 30px; */
     border: 1px solid rgba(0,0,0,0.1);
@@ -180,7 +181,7 @@ a:hover {
 }
 
 #google-search-btn:hover {
-    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.35);
 }
 
 #feeling-lucky-btn {
@@ -194,5 +195,5 @@ a:hover {
 }
 
 #feeling-lucky-btn:hover {
-    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.35);
 }
