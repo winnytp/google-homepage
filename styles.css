@@ -1,3 +1,9 @@
+/* Testing */
+html, head, body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Syling for the body */
 body {
     font-family: Arial, sans-serif;
@@ -8,7 +14,7 @@ body {
     position: absolute;
     bottom: 0;
     background-color: #f7f7f7;
-    width: 99vw; /* this is the cause of the scroll bar when set to 100% */
+    width: 100%; /* this is the cause of the scroll bar when set to 100% */
 }
 
 .footer-links {
