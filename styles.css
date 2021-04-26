@@ -8,8 +8,8 @@ html, head, body {
     display: block;
     position: absolute;
     opacity: 50%;
-    top: 6px;
-    left: 4px
+    top: 8px;
+    left: 4px;
 }
 
 .search {
@@ -17,11 +17,6 @@ html, head, body {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    /* change .search display to this to get back in centre:
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    */
 }
 
 
@@ -150,6 +145,7 @@ a:hover {
     padding: 15px 5px;
     /* border-radius: 30px; */
     border: 1px solid rgba(0,0,0,0.1);
+    font-size: 15px;
     border-radius: 30px;
     padding-left: 45px;
 }
