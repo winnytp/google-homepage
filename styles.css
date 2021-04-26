@@ -9,12 +9,22 @@ html, head, body {
     position: absolute;
     opacity: 50%;
     top: 6px;
-    left: 25.5vw;
+    left: 4px
 }
 
 .search {
     position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    /* change .search display to this to get back in centre:
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    */
 }
+
+
 
 /* Syling for the body */
 body {
