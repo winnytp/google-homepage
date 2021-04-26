@@ -14,11 +14,10 @@ I'm starting with a blank canvas. Whatever you see is stuff I've manually typed 
 
 ## To-do
 Here's some stuff still to do:
-- Investigate CSS grid layout for navbar
-- Make the search box have rounded corners, and add the search icon
-- Add the entire footer section
+- Add the 'Voice Search' icon
+- Investigate why HTML and body tags needed padding: 0 and margin: 0 to make their container widths fill screen without overflow.
 
 # Issues
-- Navbar is broken, layout needs investigation
+- I don't even know anymore
 
 There's probably more issues I haven't thought about. Will add when I have the time.
