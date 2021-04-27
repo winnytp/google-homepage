@@ -151,12 +151,12 @@ a:hover {
 }
 
 #search-box:hover {
-    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 15%);
 }
 
 #search-box:focus {
     outline: none;
-    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 15%);
 }
 
 #subtext {
@@ -177,12 +177,16 @@ a:hover {
     border: none;
     border-radius: 3px;
     color: rgba(0,0,0,0.8);
-    background-color: #f5f5f5;
+    background-color: #f8f9fa;
     transition: all 200ms ease-out;
 }
 
 #google-search-btn:hover {
     box-shadow: 0 0 3px rgba(0,0,0,0.35);
+}
+
+#google-search-btn:focus {
+    border: 1px solid rgba(0, 119, 255, 0.6);
 }
 
 #feeling-lucky-btn {
@@ -191,10 +195,14 @@ a:hover {
     border: none;
     border-radius: 3px;
     color: rgba(0,0,0,0.8);
-    background-color: #f5f5f5;
+    background-color: #f8f9fa;
     transition: all 200ms ease-out;
 }
 
 #feeling-lucky-btn:hover {
     box-shadow: 0 0 3px rgba(0,0,0,0.35);
+}
+
+#feeling-lucky-btn:focus {
+    border: 1px solid rgba(0, 119, 255, 0.6);
 }
